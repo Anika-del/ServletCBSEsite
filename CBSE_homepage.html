@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBSE Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightskyblue;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+		
+		 
+		
+		.container {
+            display: flex;
+            align-items: left;
+            justify-content: space-around;
+            padding: 5px;
+			
+        }
+        .image-container {
+            flex: 1; 
+			padding-left:100px;
+        }
+        .links-container {
+            flex: 2; 
+            text-align: center; 
+			padding:40px;
+        }
+        .links-container a {
+		display: block; 
+            margin: 10px 0; 
+            text-decoration: none; 
+            color: #0073e6; 
+        }
+        .links-container a:hover {
+            color: red; 
+			
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Central Board of Secondary Education</h1>
+    </header>
+	<form method="GET" action="CBSE">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Academics</a>
+        <a href="#">Examination</a>
+        <a href="#">Results</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to the CBSE Board's Result Portal</h2>
+        <!--<p>This is a Webpage which is show information about the CBSE board result...</p>-->
+       </div>
+	   <!-- More content goes here -->
+		<div class="container">
+		
+        <div class="image-container">
+            <img src="dd.jpg" alt="Descriptive Image Text" width="400">
+        </div>
+		
+		
+		
+        <div class="links-container">
+            <a href="Add.html">Add Student</a>
+            <a href="Delete.html">Delete Student</a>
+            <a href="Modify.html">Modified in Students Result</a>
+			<a href="searchParcent.html">Search Strudents Pracentege</a>
+			<a href="TotalStudentServlet">Total Numbers of Students</a>
+            <!-- Add more links as needed -->
+        </div>
+		</form>	
+    </div>
+	
+
+    <footer>
+        <p>© 2024 Central Board of Secondary Education. All rights reserved.</p>
+    </footer>
+</body>
+</html>
